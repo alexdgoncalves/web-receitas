@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: BrandonText, Arial;
+}
+
+.container {
+  padding: 3rem 5rem;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem 4rem;
+  background: #7f5539;
+  border-radius: 30px;
+}
+
+.photos-menu {
+  height: 300px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.description {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description > h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #ede0d4;
+}
+
+p {
+  color: #ede0d4;
+  text-align: inherit;
+  font-size: 1.1rem;
+}

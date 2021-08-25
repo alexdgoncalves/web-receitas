@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: BrandonText, Arial;
+}
+
+body {
+  background: #ede0d4;
+}
+hr {
+  border-color: #e6ccb2;
+  width: 100%;
+}
+.introdution {
+  display: flex;
+  align-items: center;
+  padding: 8rem 1rem 0 1rem;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #7f5539;
+}

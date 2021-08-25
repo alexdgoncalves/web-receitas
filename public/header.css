@@ -1,0 +1,35 @@
+header {
+  background: #9c6644;
+  color: #ede0d4;
+  text-decoration: none;
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  color: #ede0d4;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.header-title {
+  padding: 0 5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 5rem;
+}
+
+li {
+  list-style: none;
+  padding: 0 2rem;
+}
