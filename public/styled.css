@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #ede0d4;
+  background: #e6ccb2;
 }
 hr {
   border-color: #e6ccb2;
@@ -15,7 +15,13 @@ hr {
 .introdution {
   display: flex;
   align-items: center;
-  padding: 8rem 1rem 0 1rem;
+  padding: 8rem 1rem 1rem 1rem;
+}
+
+.introdution-two {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem;
 }
 h2 {
   width: 100%;
@@ -24,4 +30,48 @@ h2 {
   font-size: 2rem;
   font-weight: 400;
   color: #7f5539;
+}
+
+.about {
+  background-color: #9c6644;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 3rem;
+  border: solid 4px #7f5539;
+  border-radius: 30px;
+}
+
+.mission {
+  background: #7f5539;
+  border: solid 4px #9c6644;
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  border-radius: 30px;
+}
+
+.border {
+  padding: 2rem 12rem;
+}
+
+.img-cook {
+  max-height: 450px;
+}
+
+.about-description {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: justify;
+}
+
+.mission-description {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: justify;
 }

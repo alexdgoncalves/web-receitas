@@ -6,7 +6,7 @@
 }
 
 .container {
-  padding: 3rem 5rem;
+  padding: 3rem 12rem;
 }
 
 .recipes {
@@ -14,8 +14,21 @@
   flex-direction: row;
   width: 100%;
   padding: 2rem 4rem;
-  background: #7f5539;
+  background-color: #9c6644;
+  border: solid 4px #7f5539;
   border-radius: 30px;
+  justify-content: space-around;
+}
+
+.recipes-two {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem 4rem;
+  background: #7f5539;
+  border: solid 4px #9c6644;
+  border-radius: 30px;
+  justify-content: space-around;
 }
 
 .photos-menu {
@@ -32,7 +45,7 @@
   justify-content: space-between;
 }
 
-.description > h3 {
+h3 {
   font-size: 2rem;
   text-transform: capitalize;
   color: #ede0d4;
